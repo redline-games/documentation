@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="canonical" href="https://game-docs.com/features/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Features - Game-Docs</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="..">Game-Docs</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Features</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../scripts/">Scripts</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../beautification/">Beautification</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../creativepackage/">Creative Package</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../about/">About</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="..">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../scripts/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#features">Features</a></li>
+            <li class="second-level"><a href="#currency-manager">Currency Manager</a></li>
+                
+            <li class="second-level"><a href="#pooling">Pooling</a></li>
+                
+            <li class="second-level"><a href="#level-end-screens">Level End Screens</a></li>
+                
+            <li class="second-level"><a href="#progress-bars">Progress Bars</a></li>
+                
+            <li class="second-level"><a href="#haptics">Haptics</a></li>
+                
+            <li class="second-level"><a href="#audio">Audio</a></li>
+                
+            <li class="second-level"><a href="#scene-loader">Scene Loader</a></li>
+                
+            <li class="second-level"><a href="#settings">Settings</a></li>
+                
+            <li class="second-level"><a href="#button-attribute">Button Attribute</a></li>
+                
+            <li class="second-level"><a href="#ui-particles">UI Particles</a></li>
+                
+            <li class="second-level"><a href="#ui-gradient">UI Gradient</a></li>
+                
+            <li class="second-level"><a href="#render-texture-creator">Render Texture Creator</a></li>
+                
+            <li class="second-level"><a href="#custom-shaders">Custom Shaders</a></li>
+                
+            <li class="second-level"><a href="#3d-mask">3D Mask</a></li>
+                
+            <li class="second-level"><a href="#9-sliced-circles">9-sliced Circles</a></li>
+                
+            <li class="second-level"><a href="#extension-methods">Extension Methods</a></li>
+                
+                <li class="third-level"><a href="#collections">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections</a></li>
+                <li class="third-level"><a href="#scroll">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll</a></li>
+                <li class="third-level"><a href="#animator-controller">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animator Controller</a></li>
+                <li class="third-level"><a href="#camera">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camera</a></li>
+                <li class="third-level"><a href="#tmp_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMP_Text</a></li>
+            <li class="second-level"><a href="#utilities">Utilities</a></li>
+                
+                <li class="third-level"><a href="#floating-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floating Text</a></li>
+                <li class="third-level"><a href="#tags-and-layers">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tags and Layers</a></li>
+                <li class="third-level"><a href="#custom-buttons">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom Buttons</a></li>
+            <li class="second-level"><a href="#editor-scripts">Editor Scripts</a></li>
+                
+                <li class="third-level"><a href="#screenshot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot</a></li>
+                <li class="third-level"><a href="#object-renamer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer</a></li>
+                <li class="third-level"><a href="#object-replacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="features">Features</h1>
+<hr />
+<h3 id="currency-manager">Currency Manager</h3>
+<p>Money matters 💸.
+<br>
+Use one manager per currency, assign relevant data in the corresponding SO and you're set.</p>
+<pre><code class="language-text">[CurrencyManager] prefab can be found in Assets/Prefabs/Currency
+Make sure the respective 2D and 3D currency prefabs are added in PoolBoss
+</code></pre>
+<hr />
+<h3 id="pooling">Pooling</h3>
+<p>Pool is cool 😎.
+<br>
+When you need a bunch of the same prefab multiple times, use pooling instead of spawning them at runtime for better runtime performance.</p>
+<pre><code class="language-text">Don't forget to add your prefabs to PoolBoss
+</code></pre>
+<hr />
+<h3 id="level-end-screens">Level End Screens</h3>
+<p>Some wins 🎉, some fails ☠️.
+<br>
+A set of default screens have already been integrated for easy game flow.</p>
+<pre><code class="language-text">To customize, extend the LevelEndScreenBase script and create custom win and lose scripts
+</code></pre>
+<hr />
+<h3 id="progress-bars">Progress Bars</h3>
+<p>Keep progressing 📈.
+<br>
+A variety of progress bars have been pre-made for easy integration</p>
+<pre><code class="language-text">You can find the different types of progress bars in Assets/Prefabs/ProgressBar
+</code></pre>
+<hr />
+<h3 id="haptics">Haptics</h3>
+<p>Tap, vibrate, experience 📳.
+<br>
+Choose from pre-built presets like Success ✅, Failure ⚠️, Light 🪶, and Heavy 🪨 among others.</p>
+<pre><code class="language-text">Haptics can be accessed via the HapticsManager
+</code></pre>
+<hr />
+<h3 id="audio">Audio</h3>
+<p>Let the music play.
+<br>
+Easily Play and manage music 🔊 and SFX 🔔 with customizable volume and pitch.</p>
+<pre><code class="language-text">Use AudioManager to handle any in-game sounds
+</code></pre>
+<hr />
+<h3 id="scene-loader">Scene Loader</h3>
+<p>Transition between scenes 🎬 seamlessly.
+<br>
+Use the Scene Loader and Transition Manager in tandem to load scenes with visible loading progress or just a generic loading screen.</p>
+<pre><code class="language-text">Transition manager supports different types of transitions that can be extended
+</code></pre>
+<hr />
+<h3 id="settings">Settings</h3>
+<p>A pre-made settings ⚙️ panel has been created for your convenience.
+<br>
+Easily integrate toggles for music and haptics, as well as attributions for non-cc0 artwork.</p>
+<pre><code class="language-text">SettingsHandler deals with everything related to settings
+To add attribution, add info in the AtrributionDataSO and it'll reflect automatically
+</code></pre>
+<hr />
+<h3 id="button-attribute">Button Attribute</h3>
+<p>Test with ease 👨🏻‍🔬.
+<br></p>
+<p><img alt="Screenshot" src="../img/ButtonAttribute.png" title="Button Attribute" /></p>
+<pre><code class="language-text">Use attribute [Button] to expose the method as shown in above image
+</code></pre>
+<hr />
+<h3 id="ui-particles">UI Particles</h3>
+<p>Particles ✨ always make things better.
+<br>
+Now integrate particle systems in overlay canvas.</p>
+<pre><code class="language-text">Add the UIParticleSystem component to render particles in UI
+</code></pre>
+<hr />
+<h3 id="ui-gradient">UI Gradient</h3>
+<p>Add gradients 🎨 to UI Images for a more polished look.
+<br>
+You can make bland screens pop much more using simple vertical and horizontal gradients.</p>
+<pre><code class="language-text">Add the Gradient or Gradient2 component on any image
+</code></pre>
+<p><a href="../gifs/9SlicedImage.gif" title="UI Gradient">UI Gradient example</a></p>
+<hr />
+<h3 id="render-texture-creator">Render Texture Creator</h3>
+<p>Render the world 🌏 in UI.
+<br>
+Easily set up dynamically created render textures that don't bloat your build size.</p>
+<pre><code class="language-text">RenderTextureCamera prefab can be found in Assets/Prefabs/RenderTextureCamera
+Place it in scene, use the camera to set up your visuals, assign raw images, and hit play
+Some helpful buttons are also provided on the script to help you
+</code></pre>
+<hr />
+<h3 id="custom-shaders">Custom Shaders</h3>
+<p>Let the creative juices flow 🧠.
+<br>
+Some basic custom shaders to create effects like Checkerboard, Heat Haze, Stipple, Better Transparency</p>
+<pre><code class="language-text">All custom shader can be found in Assets/Shaders
+</code></pre>
+<hr />
+<h3 id="3d-mask">3D Mask</h3>
+<p>Mask 🎭 3D objects in world space.
+<br>
+You can make objects be visible either inside or outside the mask object.</p>
+<pre><code class="language-text">Mask shaders can be found in Assets/Shaders/3DMask
+An example showcasing this can be found in Assets/Prefabs/3DMask/3DMaskExample
+</code></pre>
+<hr />
+<h3 id="9-sliced-circles">9-sliced Circles</h3>
+<p>Life is a circle ⚪.
+<br>
+You can create a lot of UI just using a 9-sliced white circle sprite.</p>
+<pre><code class="language-text">The project already has Circle_512 and Circle_64 sprites that have been sliced
+</code></pre>
+<p>To use them, assign the sprite to an image component and play around with the 
+"Pixels Per Unit Multiplier" value to get the desired rounding.</p>
+<p><a href="../gifs/9SlicedImage.gif" title="9-Slicing">9-slicing example</a></p>
+<hr />
+<h3 id="extension-methods">Extension Methods</h3>
+<h4 id="collections">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension menthods to shuffle, get random item, get random index, delete null elements, debug collection.</p>
+<p><br></p>
+<h4 id="scroll">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Methods to auto-scroll to a specific point or item in the scrollview.</p>
+<p><br></p>
+<h4 id="animator-controller">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animator Controller</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start animation from random frame, change speed of animations.</p>
+<p><br></p>
+<h4 id="camera">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camera</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transition camera positiona nd rotation, shake camera, change FOV.</p>
+<p><br></p>
+<h4 id="tmp_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMP_Text</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animate numbers to easily show changing values.</p>
+<hr />
+<h3 id="utilities">Utilities</h3>
+<h4 id="floating-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floating Text</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use it to show damage text, money earned/spent, etc.</p>
+<pre><code class="language-text">Floating text can be spawned via [FloatingTextManager]
+</code></pre>
+<p><br></p>
+<h4 id="tags-and-layers">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tags and Layers</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Easily access all Tags and Layers as an Enum.</p>
+<p><br></p>
+<h4 id="custom-buttons">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom Buttons</h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create buttons easily vis pre-defined templates.</p>
+<pre><code class="language-text">To create a custon button, go to Create &gt; UI &gt; CustomButton
+</code></pre>
+<p><br></p>
+<hr />
+<h3 id="editor-scripts">Editor Scripts</h3>
+<p>These features can be accessed from top menu bar - CustomTools</p>
+<h5 id="screenshot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take high resolution screenshots of everything rendered in your game camera.</p>
+<p><br></p>
+<h5 id="object-renamer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename a bunch of scene objects together. It also supports ascending and decending serialization.</p>
+<p><br></p>
+<h5 id="object-replacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer</h5>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace objects in your scene with a new prefab. Optionally, you can also delete old objects.</p>
+<p><br></p></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
