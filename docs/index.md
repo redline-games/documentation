@@ -4,41 +4,41 @@ We have compiled a brief documentation of the base project and other RLG package
 
 Please go through each page to make sure you are aware of all features and how to use them.
 
-## Components
+---
 
-* GameManager.cs
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `GameManager.Instance.GetCurrency` - Print help message and exit.
+## How to use
 
-## Project layout
+1. Clone the base project from [https://gitlab.com/redlinegames/baseproject.git](https://gitlab.com/redlinegames/baseproject.git)
 
-    GameManger
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+2. Duplicate the project files in your working repository and use that as a base for any new project
 
 
-> This is a blockquote.
+NOTE: In case you do not have access to the base project repository, please contact the Sr. Developer or the Project Manager
 
-Some of these words *are emphasized*.
-Some of these words _are emphasized also_.
+---
 
-Use two asterisks for **strong emphasis**.
-Or, if you prefer, __use two underscores instead__.
+## Overview
 
-    I strongly recommend against using any `<blink>` tags.
 
-    I wish SmartyPants used named entities like `&mdash;`
-    instead of decimal-encoded entities like `&#8212;`.
+### [Features](features.md)
 
-Cupcake indexer is a snazzy new project for indexing small cakes.
+Mentions notable features that have been integrated in th base project
 
-![Screenshot](img/Screenshot.png "Inspector")
+---
 
-*Above: Cupcake indexer in progress*
+### [Scripts](scripts.md)
 
-This is an [example link](index.md#commands "With a Title").
+Gives a basic understanding of all important scripts and how to use them
+
+---
+
+### [Beautification](beautification.md)
+
+Outlines custom tools included in the project that will help you organise the project better
+
+---
+
+### [Creative package](creativepackage.md)
+
+A custom package that will help you record top-notch creatives
 

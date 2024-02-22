@@ -6,7 +6,7 @@
 
 Money matters 💸.
 <br>
-Use one manager per currency, assign relevant data in the corresponding SO and you're set.
+Use one manager per currency, assign relevant data in the corresponding scriptable object and you're set.
 
 ```text
 [CurrencyManager] prefab can be found in Assets/Prefabs/Currency
@@ -199,7 +199,7 @@ To use them, assign the sprite to an image component and play around with the
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension menthods to shuffle, get random item, get random index, delete null elements, debug collection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension menthods to shuffle, get random item, get random index, delete null elements, debug all elements.
 
 <br>
 
@@ -217,7 +217,7 @@ To use them, assign the sprite to an image component and play around with the
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camera
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transition camera positiona nd rotation, shake camera, change FOV.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transition camera position and rotation, shake camera, change FOV.
 
 <br>
 
