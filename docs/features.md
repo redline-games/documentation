@@ -194,12 +194,24 @@ To use them, assign the sprite to an image component and play around with the
 
 ---
 
+### Build Report
+
+Reporting Live 📝.
+<br>
+Get detailed information of what is bloating your build.
+
+```text
+Build report will automatically be created when you make a build
+You can open report window from Window > Show Build Report
+```
+
+---
 
 ### Extension Methods
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension menthods to shuffle, get random item, get random index, delete null elements, debug all elements.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension methods to shuffle, get random item, get random index, delete null elements, debug all elements.
 
 <br>
 
@@ -260,19 +272,19 @@ To create a custon button, go to Create > UI > CustomButton
 
 These features can be accessed from top menu bar - CustomTools
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take high resolution screenshots of everything rendered in your game camera.
 
 <br>
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename a bunch of scene objects together. It also supports ascending and decending serialization.
 
 <br>
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace objects in your scene with a new prefab. Optionally, you can also delete old objects.
 

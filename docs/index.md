@@ -42,3 +42,14 @@ Outlines custom tools included in the project that will help you organise the pr
 
 A custom package that will help you record top-notch creatives
 
+---
+
+## Packages
+
+Download links for all templates and custom packages
+
+#### [Base project](https://gitlab.com/redlinegames/baseproject.git)
+
+#### [Creative package](packages/CreativesPackage_v1.2.unitypackage)
+
+#### [Runner game template](packages/RunnerTemplate_v1.4.unitypackage)

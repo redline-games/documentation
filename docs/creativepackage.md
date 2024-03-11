@@ -4,10 +4,12 @@
 
 We have a bunch of features packed into a single package that will help you speed up the development for CPI videos.
 
-You can download the creative package [here](packages/CreativesPackage.unitypackage "Creative Package")
+You can download the creative package [here](packages/CreativesPackage_v1.2.unitypackage "Creative Package")
 
 
 Once imported, you can access all features via the top bar Creatives > Creative Wizard
+
+![Screenshot](img/CreativeWizard.png "Creative Wizard")
 
 ### Features
 
@@ -29,9 +31,9 @@ Use this to uncompress all textures just of creatives. This can be reverted at a
 
 #### <b>Camera Settings</b>
 
-You can edit camera setting to toggle greyscale for specific layers, toggle SSAO, and change skyboxes.
+You can edit camera setting to toggle greyscale for specific layers, toggle SSAO, and change skyboxes. Camera settings can also be reverted easily.
 
-Camera settings can also be reverted easily.
+<b><i>Note:</b> Greyscale does not work on overlay canvas</i>
 
 ---
 
@@ -41,6 +43,12 @@ Easily apply custom lighting using lighting data presets.
 
 ---
 
-#### <b>Onboarding hand</b>
+#### <b>Onboarding Hand</b>
 
 Toggle a tutorial hand to show finger movement in videos. Right-click to toggle the hand visual.
+
+---
+
+#### <b>End Screens and CTA</b>
+
+Custom end screens and a CTA screen template is provided with the package. Use them and customize as required.
