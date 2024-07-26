@@ -5,6 +5,7 @@ nav:
   - Features: features.md
   - Scripts: scripts.md
   - Beautification: beautification.md
+  - Dev Console: devconsole.md
   - Creative Package: creativepackage.md
 theme: cinder
 

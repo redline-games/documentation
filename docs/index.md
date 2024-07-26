@@ -38,6 +38,12 @@ Outlines custom tools included in the project that will help you organise the pr
 
 ---
 
+### [Dev Console](devconsole.md)
+
+A custom package to help with game testing
+
+---
+
 ### [Creative package](creativepackage.md)
 
 A custom package that will help you record top-notch creatives
@@ -49,6 +55,8 @@ A custom package that will help you record top-notch creatives
 Download links for all templates and custom packages
 
 #### [Base project](https://gitlab.com/redlinegames/baseproject.git)
+
+#### [Dev Console](packages/DevConsole_v1.0.unitypackage)
 
 #### [Creative package](packages/CreativesPackage_v1.2.unitypackage)
 
