@@ -4,51 +4,84 @@
 
 We have a bunch of features packed into a single package that will help you speed up the development for CPI videos.
 
-You can download the creative package [here](packages/CreativesPackage_v1.2.unitypackage "Creative Package")
+You can download the latest version of the creative package [here](packages/CreativesPackage_v2.0.unitypackage "Creative Package")
 
 
-Once imported, you can access all features via the top bar Creatives > Creative Wizard
+Once imported, you can access all features via the [CPIManager] prefab.
+To create the prefab, navigate to the top bar CustomTools > Create CPI Manager
 
-![Screenshot](img/CreativeWizard.png "Creative Wizard")
+![Screenshot](img/CreateCpiManager.png "Create CPI Manager")
 
 ### Features
 
----
+![Screenshot](img/CPIManagerInspector.png "CPI Manager Inspector")
 
-#### <b>Guide</b>
+#### <b>CPI Guidelines</b>
 
-Read through the Creatives Guidelines for better understanding of how to record videos
-
----
-
-#### <b>Texture Compression</b>
-
-Use this to uncompress all textures just of creatives. This can be reverted at any time to previous setting.
-
-<b><i>Note:</b> Only use this when we need realistic, HQ textures. Not required for simple puzzle games</i>
+Read through the CPI Guidelines for better understanding of how to record videos and what to focus on.
 
 ---
 
-#### <b>Camera Settings</b>
+#### <b>CPI End Screen Handler</b>
 
-You can edit camera setting to toggle greyscale for specific layers, toggle SSAO, and change skyboxes. Camera settings can also be reverted easily.
-
-<b><i>Note:</b> Greyscale does not work on overlay canvas</i>
+Allows selection of the type of end screen required among Emoji, Banner and Stamp. You can also set the keybinds to trigger Win and Fail sequences.
 
 ---
 
-#### <b>Lighting Settings</b>
+#### <b>CTA Handler</b>
 
-Easily apply custom lighting using lighting data presets.
-
----
-
-#### <b>Onboarding Hand</b>
-
-Toggle a tutorial hand to show finger movement in videos. Right-click to toggle the hand visual.
+Use the CTA handler properties to create a customised CTA screen with the required game name, icon and other properties.
 
 ---
 
-#### <b>End Screens and CTA</b>
+#### <b>CPI Hand Controller</b>
 
-Custom end screens and a CTA screen template is provided with the package. Use them and customize as required.
+Select which type of hand sprite you want to use. You can edit hand settings in the Scriptable Object located at _"Assets/CreativesSetup/HandPresets/CPIHandData"_.
+
+```text
+Left click => Hand tap animation
+Right click => Incorrect click indication
+Scroll click => Toggle hand visibility
+```
+
+---
+
+#### <b>CPI Gratification Handler</b>
+
+Set a keybind to spawn gratification text at target position.
+
+---
+
+#### <b>CPI Highlight Handler</b>
+
+Use the CPI highlight handler to highlight specific areas of the game screen to grab attention.
+
+---
+
+#### <b>CPI Alert Handler</b>
+
+The CPI alert handler allows you to add a full-screen vignette to alert the viewer or indicate urgency.
+
+---
+
+#### <b>CPI Camera Handler</b>
+
+Set up the properties required for a camera shake effect.
+
+---
+
+#### <b>CPI Level End Text Handler</b>
+
+This module allows you to show animated text commonly used to show reason for failure, like _"Out of Space!"_.
+
+---
+
+#### <b>CPI Incorrect Click Handler</b>
+
+This module allows enabling 3 <b>X</b> indicators at the top of the screen that can be used to show wrong decisions made by the player.
+
+---
+
+#### <b>Screen Sequence</b>
+
+You can define a list of screens that will automatically be called in sequence when Win or Fail is triggered via the CPI End Screen Handler

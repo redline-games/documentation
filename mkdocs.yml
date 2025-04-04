@@ -5,7 +5,9 @@ nav:
   - Features: features.md
   - Scripts: scripts.md
   - Beautification: beautification.md
+  - Custom Tools: customtools.md
   - Dev Console: devconsole.md
   - Creative Package: creativepackage.md
-theme: cinder
+theme: 
+  name: cinder
 

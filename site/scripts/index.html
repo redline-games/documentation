@@ -94,13 +94,13 @@
                 
                 
                     <li >
-                        <a href="../devconsole/">Dev Console</a>
+                        <a href="../creativepackage/">Creative Package</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../creativepackage/">Creative Package</a>
+                        <a href="../about/">About</a>
                     </li>
                 
                 
@@ -174,56 +174,34 @@
 <p>An overview of how certain scripts should be used.</p>
 <hr />
 <h3 id="gamemanager">GameManager</h3>
-<p>A global manager script that should only handle global tasks, like overall game settings, physics settings, etc.</p>
 <hr />
 <h3 id="globalreferences">GlobalReferences</h3>
-<p>This script will hold references of all manager and handler scripts that are universally required.</p>
 <hr />
 <h3 id="levelmanager">LevelManager</h3>
-<p>LevelManager is responsible for loading the correct level, managing level win and level fail.</p>
 <hr />
 <h3 id="settingshandler">SettingsHandler</h3>
-<p>This script controls the settings panel which holds music and haptic toggles along with the attribution section.</p>
 <hr />
 <h3 id="gamestate">GameState</h3>
-<p>Defines all possible game states as an enum. Basic states have already been added. You can expand on this and add any major game states to this.</p>
 <hr />
 <h3 id="gameevents">GameEvents</h3>
-<p>Defines basic events that you can use as required. For example - OnGameStarted, OnGamePaused, OnLevelComplete, OnLevelFailed. You can add any more global events here.</p>
-<p><b><i> Note:</b>  Only add major events that affect the entire game here. Do not add any functionality-specific events here.</i></p>
 <hr />
 <h3 id="coroutinemanager">CoroutineManager</h3>
-<p>You can use this script to run any coroutine without being dependant on a monobehaviour object. You can also call coroutines with delay.</p>
-<p>It also includes a class called CoroutineWaitDelay which defines constants for delay in seconds. Use these constants whenever you need to define delays.</p>
 <hr />
 <h3 id="levelendscreenbase">LevelEndScreenBase</h3>
-<p>Provides a basic implementation of level complete and level fail screens.</p>
-<p><b><i> Note:</b> For custom implementation of these screens, make sure you extend this class as it provides all basic functionality.</i></p>
 <hr />
 <h3 id="logger">Logger</h3>
-<p>A custom logger that helps in easier debugging.</p>
-<p>You can pass tags to easily search for relevant logs.</p>
 <hr />
 <h3 id="floatingtextmanager">FloatingTextManager</h3>
-<p>This script allows you to easily spawn floating texts that can be used to indicate damage, income, etc.</p>
 <hr />
 <h3 id="buttonanimator">ButtonAnimator</h3>
-<p>This script allows us to easily add feedback to buttons. Just assign the event intended for the button and on click the button will now animate and then call the event.</p>
 <hr />
 <h3 id="adsmanager">AdsManager</h3>
-<p>A very basic template that allows for ad integration.</p>
 <hr />
 <h3 id="analyticshandler">AnalyticsHandler</h3>
-<p>A very basic template that allows for analytics integration.</p>
 <hr />
 <h3 id="savemanager">SaveManager</h3>
-<p>Use this script to save persistent data instead of using PlayerPrefs. It also allows saving custom data like dates, images, etc.</p>
 <hr />
 <h3 id="staticinstance-singleton-persistentsingleton">StaticInstance, Singleton, PersistentSingleton</h3>
-<p>These classes allow an easy way to create instances of an object.</p>
-<p><b><i>StaticInstance</i></b> - Creates a static "Instance" variable of the object that can be overwritten. Gets destroyed when scene reloads.</p>
-<p><b><i>Singleton</i></b> - Creates a singleton static "Instance" variable of the object that cannot be overwritten. Gets destroyed when scene reloads.</p>
-<p><b><i>PersistentSingleton</i></b> - Creates a singleton static "Instance" variable of the object that cannot be overwritten. Does not get destroyed when scene reloads.</p>
 <hr />
 <h3 id="_1"></h3></div>
         

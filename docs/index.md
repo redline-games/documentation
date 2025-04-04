@@ -34,7 +34,13 @@ Gives a basic understanding of all important scripts and how to use them
 
 ### [Beautification](beautification.md)
 
-Outlines custom tools included in the project that will help you organise the project better
+Outlines tools included in the project that will help you organise the project better
+
+---
+
+### [Custom Tools](customtools.md)
+
+Custom tools developed to assist rapid development
 
 ---
 
@@ -58,6 +64,6 @@ Download links for all templates and custom packages
 
 #### [Dev Console](packages/DevConsole_v1.0.unitypackage)
 
-#### [Creative package](packages/CreativesPackage_v1.2.unitypackage)
+#### [Creative package](packages/CreativesPackage_v1.3.unitypackage)
 
 #### [Runner game template](packages/RunnerTemplate_v1.4.unitypackage)

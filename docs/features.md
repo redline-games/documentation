@@ -51,6 +51,18 @@ You can find the different types of progress bars in Assets/Prefabs/ProgressBar
 
 ---
 
+### Gratification
+
+Gratify everything 🎉.
+<br>
+Easy method invocation to show in-game gratification texts
+
+```text
+You can call the method via GratificationHandler > Instance
+```
+
+---
+
 ### Haptics
 
 Tap, vibrate, experience 📳.
@@ -194,6 +206,20 @@ To use them, assign the sprite to an image component and play around with the
 
 ---
 
+### Build Config Popup
+
+Build Setings ⚙️.
+<br>
+Make sure your build uses correct IDs.
+
+```text
+Build config popup lets you check and confirm bundle ID and project name directly
+You can also toggle Dev Console from here
+This window appears automatically when building
+```
+
+---
+
 ### Build Report
 
 Reporting Live 📝.
@@ -263,29 +289,3 @@ Floating text can be spawned via [FloatingTextManager]
 ```text
 To create a custon button, go to Create > UI > CustomButton
 ```
-
-<br>
-
----
-
-### Editor Scripts
-
-These features can be accessed from top menu bar - CustomTools
-
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take high resolution screenshots of everything rendered in your game camera.
-
-<br>
-
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename a bunch of scene objects together. It also supports ascending and decending serialization.
-
-<br>
-
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace objects in your scene with a new prefab. Optionally, you can also delete old objects.
-
-<br>
