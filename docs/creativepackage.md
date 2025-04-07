@@ -4,7 +4,7 @@
 
 We have a bunch of features packed into a single package that will help you speed up the development for CPI videos.
 
-You can download the latest version of the creative package [here](packages/CreativesPackage_v2.0.unitypackage "Creative Package")
+You can download the latest version of the creative package [here](packages/CreativePackage_v2.0.unitypackage "Creative Package")
 
 
 Once imported, you can access all features via the [CPIManager] prefab.
