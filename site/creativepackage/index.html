@@ -93,14 +93,20 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Creative Package</a>
+                    <li >
+                        <a href="../customtools/">Custom Tools</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../about/">About</a>
+                        <a href="../devconsole/">Dev Console</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Creative Package</a>
                     </li>
                 
                 
@@ -113,12 +119,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../beautification/">
+                        <a rel="prev" href="../devconsole/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="../about/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -135,7 +141,17 @@
         <li class="first-level active"><a href="#creative-package">Creative Package</a></li>
             <li class="second-level"><a href="#features">Features</a></li>
                 
-                <li class="third-level"><a href="#onboarding-hand">Onboarding hand</a></li>
+                <li class="third-level"><a href="#cpi-guidelines">CPI Guidelines</a></li>
+                <li class="third-level"><a href="#cpi-end-screen-handler">CPI End Screen Handler</a></li>
+                <li class="third-level"><a href="#cta-handler">CTA Handler</a></li>
+                <li class="third-level"><a href="#cpi-hand-controller">CPI Hand Controller</a></li>
+                <li class="third-level"><a href="#cpi-gratification-handler">CPI Gratification Handler</a></li>
+                <li class="third-level"><a href="#cpi-highlight-handler">CPI Highlight Handler</a></li>
+                <li class="third-level"><a href="#cpi-alert-handler">CPI Alert Handler</a></li>
+                <li class="third-level"><a href="#cpi-camera-handler">CPI Camera Handler</a></li>
+                <li class="third-level"><a href="#cpi-level-end-text-handler">CPI Level End Text Handler</a></li>
+                <li class="third-level"><a href="#cpi-incorrect-click-handler">CPI Incorrect Click Handler</a></li>
+                <li class="third-level"><a href="#screen-sequence">Screen Sequence</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -143,11 +159,48 @@
 <h1 id="creative-package">Creative Package</h1>
 <hr />
 <p>We have a bunch of features packed into a single package that will help you speed up the development for CPI videos.</p>
-<p>You can download the creative package <a href="../packages/CreativesPackage.unitypackage" title="Creative Package">here</a></p>
-<p>Once imported, you can access all features via the top bar Creatives &gt; Creative Wizard</p>
+<p>You can download the latest version of the creative package <a href="packages/CreativesPackage_v2.0.unitypackage" title="Creative Package">here</a></p>
+<p>Once imported, you can access all features via the [CPIManager] prefab.
+To create the prefab, navigate to the top bar CustomTools &gt; Create CPI Manager</p>
+<p><img alt="Screenshot" src="../img/CreateCpiManager.png" title="Create CPI Manager" /></p>
 <h3 id="features">Features</h3>
+<p><img alt="Screenshot" src="../img/CPIManagerInspector.png" title="CPI Manager Inspector" /></p>
+<h4 id="cpi-guidelines"><b>CPI Guidelines</b></h4>
+<p>Read through the CPI Guidelines for better understanding of how to record videos and what to focus on.</p>
 <hr />
-<h4 id="onboarding-hand">Onboarding hand</h4></div>
+<h4 id="cpi-end-screen-handler"><b>CPI End Screen Handler</b></h4>
+<p>Allows selection of the type of end screen required among Emoji, Banner and Stamp. You can also set the keybinds to trigger Win and Fail sequences.</p>
+<hr />
+<h4 id="cta-handler"><b>CTA Handler</b></h4>
+<p>Use the CTA handler properties to create a customised CTA screen with the required game name, icon and other properties.</p>
+<hr />
+<h4 id="cpi-hand-controller"><b>CPI Hand Controller</b></h4>
+<p>Select which type of hand sprite you want to use. You can edit hand settings in the Scriptable Object located at <em>"Assets/CreativesSetup/HandPresets/CPIHandData"</em>.</p>
+<pre><code class="language-text">Left click =&gt; Hand tap animation
+Right click =&gt; Incorrect click indication
+Scroll click =&gt; Toggle hand visibility
+</code></pre>
+<hr />
+<h4 id="cpi-gratification-handler"><b>CPI Gratification Handler</b></h4>
+<p>Set a keybind to spawn gratification text at target position.</p>
+<hr />
+<h4 id="cpi-highlight-handler"><b>CPI Highlight Handler</b></h4>
+<p>Use the CPI highlight handler to highlight specific areas of the game screen to grab attention.</p>
+<hr />
+<h4 id="cpi-alert-handler"><b>CPI Alert Handler</b></h4>
+<p>The CPI alert handler allows you to add a full-screen vignette to alert the viewer or indicate urgency.</p>
+<hr />
+<h4 id="cpi-camera-handler"><b>CPI Camera Handler</b></h4>
+<p>Set up the properties required for a camera shake effect.</p>
+<hr />
+<h4 id="cpi-level-end-text-handler"><b>CPI Level End Text Handler</b></h4>
+<p>This module allows you to show animated text commonly used to show reason for failure, like <em>"Out of Space!"</em>.</p>
+<hr />
+<h4 id="cpi-incorrect-click-handler"><b>CPI Incorrect Click Handler</b></h4>
+<p>This module allows enabling 3 <b>X</b> indicators at the top of the screen that can be used to show wrong decisions made by the player.</p>
+<hr />
+<h4 id="screen-sequence"><b>Screen Sequence</b></h4>
+<p>You can define a list of screens that will automatically be called in sequence when Win or Fail is triggered via the CPI End Screen Handler</p></div>
         
         
     </div>

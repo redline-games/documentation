@@ -261,7 +261,7 @@ You can open report window from Window > Show Build Report
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMP_Text
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animate numbers to easily show changing values.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animate numbers to easily show changing values. Can also animate text appear and disapper effect.
 
 ---
 

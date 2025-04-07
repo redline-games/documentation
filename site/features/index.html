@@ -94,13 +94,19 @@
                 
                 
                     <li >
-                        <a href="../creativepackage/">Creative Package</a>
+                        <a href="../customtools/">Custom Tools</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../about/">About</a>
+                        <a href="../devconsole/">Dev Console</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../creativepackage/">Creative Package</a>
                     </li>
                 
                 
@@ -141,6 +147,8 @@
                 
             <li class="second-level"><a href="#progress-bars">Progress Bars</a></li>
                 
+            <li class="second-level"><a href="#gratification">Gratification</a></li>
+                
             <li class="second-level"><a href="#haptics">Haptics</a></li>
                 
             <li class="second-level"><a href="#audio">Audio</a></li>
@@ -163,6 +171,10 @@
                 
             <li class="second-level"><a href="#9-sliced-circles">9-sliced Circles</a></li>
                 
+            <li class="second-level"><a href="#build-config-popup">Build Config Popup</a></li>
+                
+            <li class="second-level"><a href="#build-report">Build Report</a></li>
+                
             <li class="second-level"><a href="#extension-methods">Extension Methods</a></li>
                 
                 <li class="third-level"><a href="#collections">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections</a></li>
@@ -175,11 +187,6 @@
                 <li class="third-level"><a href="#floating-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floating Text</a></li>
                 <li class="third-level"><a href="#tags-and-layers">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tags and Layers</a></li>
                 <li class="third-level"><a href="#custom-buttons">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom Buttons</a></li>
-            <li class="second-level"><a href="#editor-scripts">Editor Scripts</a></li>
-                
-                <li class="third-level"><a href="#screenshot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot</a></li>
-                <li class="third-level"><a href="#object-renamer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer</a></li>
-                <li class="third-level"><a href="#object-replacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -189,7 +196,7 @@
 <h3 id="currency-manager">Currency Manager</h3>
 <p>Money matters 💸.
 <br>
-Use one manager per currency, assign relevant data in the corresponding SO and you're set.</p>
+Use one manager per currency, assign relevant data in the corresponding scriptable object and you're set.</p>
 <pre><code class="language-text">[CurrencyManager] prefab can be found in Assets/Prefabs/Currency
 Make sure the respective 2D and 3D currency prefabs are added in PoolBoss
 </code></pre>
@@ -213,6 +220,13 @@ A set of default screens have already been integrated for easy game flow.</p>
 <br>
 A variety of progress bars have been pre-made for easy integration</p>
 <pre><code class="language-text">You can find the different types of progress bars in Assets/Prefabs/ProgressBar
+</code></pre>
+<hr />
+<h3 id="gratification">Gratification</h3>
+<p>Gratify everything 🎉.
+<br>
+Easy method invocation to show in-game gratification texts</p>
+<pre><code class="language-text">You can call the method via GratificationHandler &gt; Instance
 </code></pre>
 <hr />
 <h3 id="haptics">Haptics</h3>
@@ -300,9 +314,26 @@ You can create a lot of UI just using a 9-sliced white circle sprite.</p>
 "Pixels Per Unit Multiplier" value to get the desired rounding.</p>
 <p><a href="../gifs/9SlicedImage.gif" title="9-Slicing">9-slicing example</a></p>
 <hr />
+<h3 id="build-config-popup">Build Config Popup</h3>
+<p>Build Setings ⚙️.
+<br>
+Make sure your build uses correct IDs.</p>
+<pre><code class="language-text">Build config popup lets you check and confirm bundle ID and project name directly
+You can also toggle Dev Console from here
+This window appears automatically when building
+</code></pre>
+<hr />
+<h3 id="build-report">Build Report</h3>
+<p>Reporting Live 📝.
+<br>
+Get detailed information of what is bloating your build.</p>
+<pre><code class="language-text">Build report will automatically be created when you make a build
+You can open report window from Window &gt; Show Build Report
+</code></pre>
+<hr />
 <h3 id="extension-methods">Extension Methods</h3>
 <h4 id="collections">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Collections</h4>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension menthods to shuffle, get random item, get random index, delete null elements, debug collection.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Array and List extension methods to shuffle, get random item, get random index, delete null elements, debug all elements.</p>
 <p><br></p>
 <h4 id="scroll">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Methods to auto-scroll to a specific point or item in the scrollview.</p>
@@ -311,10 +342,10 @@ You can create a lot of UI just using a 9-sliced white circle sprite.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start animation from random frame, change speed of animations.</p>
 <p><br></p>
 <h4 id="camera">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camera</h4>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transition camera positiona nd rotation, shake camera, change FOV.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Transition camera position and rotation, shake camera, change FOV.</p>
 <p><br></p>
 <h4 id="tmp_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TMP_Text</h4>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animate numbers to easily show changing values.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animate numbers to easily show changing values. Can also animate text appear and disapper effect.</p>
 <hr />
 <h3 id="utilities">Utilities</h3>
 <h4 id="floating-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floating Text</h4>
@@ -328,20 +359,7 @@ You can create a lot of UI just using a 9-sliced white circle sprite.</p>
 <h4 id="custom-buttons">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Custom Buttons</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create buttons easily vis pre-defined templates.</p>
 <pre><code class="language-text">To create a custon button, go to Create &gt; UI &gt; CustomButton
-</code></pre>
-<p><br></p>
-<hr />
-<h3 id="editor-scripts">Editor Scripts</h3>
-<p>These features can be accessed from top menu bar - CustomTools</p>
-<h5 id="screenshot">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Screenshot</h5>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take high resolution screenshots of everything rendered in your game camera.</p>
-<p><br></p>
-<h5 id="object-renamer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Renamer</h5>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rename a bunch of scene objects together. It also supports ascending and decending serialization.</p>
-<p><br></p>
-<h5 id="object-replacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Object Replacer</h5>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Replace objects in your scene with a new prefab. Optionally, you can also delete old objects.</p>
-<p><br></p></div>
+</code></pre></div>
         
         
     </div>
