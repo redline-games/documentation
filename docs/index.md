@@ -62,6 +62,6 @@ Download links for all templates and custom packages
 
 #### [Base project](https://gitlab.com/redlinegames/baseproject.git)
 
-#### [Creative package](packages/CreativePackage_v2.0.unitypackage)
+#### [Creative package](packages/CreativePackage_v2.1.unitypackage)
 
 #### [Runner game template](packages/RunnerTemplate_v1.4.unitypackage)
